@@ -1,7 +1,6 @@
 <h1 align="center">🍽️ Catering Service Platform</h1>
 
 <p align="center">
-  <img src="images/homepage.png" alt="Catering Service Home Page" width="80%">
 </p>
 
 <p align="center">
@@ -12,7 +11,7 @@
 
 <h2>🚀 Live Website</h2>
 <p>
-  👉 <a href="https://your-catering-website-link.netlify.app/" target="_blank">
+  👉 <a href="https://mab-celebrations.netlify.app/" target="_blank">
     Click Here to Visit the Website
   </a>
 </p>
