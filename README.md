@@ -49,24 +49,6 @@
 
 <hr>
 
-<h2>📸 Website Screenshots</h2>
-
-<h3>🏠 Home Page</h3>
-<p align="center">
-  <img src="images/home.png" alt="Home Page" width="80%">
-</p>
-
-<h3>🍛 Cuisine Listing</h3>
-<p align="center">
-  <img src="images/cuisine.png" alt="Cuisine Page" width="80%">
-</p>
-
-<h3>🧑‍🍳 Caterer Details</h3>
-<p align="center">
-  <img src="images/caterer.png" alt="Caterer Page" width="80%">
-</p>
-
-<hr>
 
 
 
