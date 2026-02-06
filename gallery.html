@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gallery | Venus Catering</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="myimages/logo/logo.jpeg">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link href="gallery.css" rel="stylesheet">
+</head>
+
+<body class="goto-top">
+
+<!-- Header -->
+<header class="main-header">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="myimages/logo/logo.jpeg" style="width:80px">
+            </a>
+        </div>
+    </nav>
+</header>
+
+<!-- Page Header -->
+<div class="page-header parallaxie" style="background-image:url('myimages/otherpagesbg.jpg')">
+    <div class="container">
+        <div class="page-header-box text-center">
+            <h1>Mehndi Gallery</h1>
+            <nav>
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Mehndi Gallery</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery Section -->
+<div class="gallery-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="about-photo-gallery-entry restaurants-gallery">
+
+                    <!-- Image 1 -->
+                    <div class="photo-gallery-item">
+                        <a href="images/1.jpg" class="popup-gallery">
+                            <figure class="image-anime">
+                                <img src="myimages/mehndi/1.jpg" alt="Mehndi Decoration">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <!-- Image 2 -->
+                    <div class="photo-gallery-item">
+                        <a href="images/2.jpg" class="popup-gallery">
+                            <figure class="image-anime">
+                                <img src="myimages/mehndi/2.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <!-- Image 3 -->
+                    <div class="photo-gallery-item">
+                        <a href="images/3.jpg" class="popup-gallery">
+                            <figure class="image-anime">
+                                <img src="myimages/mehndi/3.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <!-- Image 4 -->
+                    <div class="photo-gallery-item">
+                        <a href="images/4.jpg" class="popup-gallery">
+                            <figure class="image-anime">
+                                <img src="images /4.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <!-- Add more images same way -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer (reuse your existing footer file if possible) -->
+
+<!-- JS -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/isotope.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/function.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.popup-gallery').magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

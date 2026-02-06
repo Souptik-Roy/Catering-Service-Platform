@@ -1,0 +1,173 @@
+/* =========================
+   Base Reset
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #222;
+    background: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* =========================
+   Container
+========================= */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* =========================
+   Header
+========================= */
+.main-header {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar {
+    padding: 12px 0;
+}
+
+/* =========================
+   Page Header
+========================= */
+.page-header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.page-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+.page-header-box {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.page-header h1 {
+    font-family: 'Domine', serif;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    color: #f1c97a;
+}
+
+/* =========================
+   Gallery Section
+========================= */
+.gallery-page {
+    padding: 70px 0;
+}
+
+.about-photo-gallery-entry {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+/* =========================
+   Gallery Card
+========================= */
+.photo-gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.photo-gallery-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.16);
+}
+
+/* Image */
+.image-anime img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.photo-gallery-item:hover img {
+    transform: scale(1.08);
+}
+
+/* Overlay */
+.photo-gallery-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 45%,
+        rgba(0,0,0,0.6) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.photo-gallery-item:hover::after {
+    opacity: 1;
+}
+
+/* =========================
+   Popup Cursor Hint
+========================= */
+.photo-gallery-item a {
+    cursor: zoom-in;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 32px;
+    }
+
+    .image-anime img {
+        height: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-anime img {
+        height: 200px;
+    }
+}

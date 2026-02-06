@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta basics -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>MAB's Celebrations</title>
-    <meta name="description" content="MAB's Celebrations offers premium Bengali catering and complete event management for weddings, parties, and corporate events. Crafting memorable events with exceptional taste." />
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css" >
-  </head>
-  <body>
-    <!-- Accessibility: Skip to content -->
-    <a class="skip-link" href="#hero">Skip to content</a>
 
-    <!-- Header / Navigation -->
-    <header id="site-header" class="site-header" aria-label="Main">
-      <div class="container header-inner">
-        <a href="#hero" class="brand" aria-label="MAB's Celebrations Home">
-          <span class="brand-mark" aria-hidden="true">✺</span>
-          <span class="brand-name">MAB's Celebrations</span>
-        </a>
-       
+<head>
+  <!-- Meta basics -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAB's Celebrations</title>
+  <meta name="description"
+    content="MAB's Celebrations offers premium Bengali catering and complete event management for weddings, parties, and corporate events. Crafting memorable events with exceptional taste." />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- facebook link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- Accessibility: Skip to content -->
+  <a class="skip-link" href="#hero">Skip to content</a>
+
+  <!-- Header / Navigation -->
+  <header id="site-header" class="site-header" aria-label="Main">
+    <div class="container header-inner">
+      <a href="#hero" class="brand" aria-label="MAB's Celebrations Home">
+        <span class="brand-mark" aria-hidden="true">✺</span>
+        <span class="brand-name">MAB's Celebrations</span>
+      </a>
 
 
-        <nav class="nav" aria-label="Primary">
-          <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">☰</button>
-          <ul id="primary-nav" class="nav-list">
-            <li><a data-scroll href="#about">About</a></li>
-            <li><a data-scroll href="#services">Services</a></li>
-            <li><a data-scroll href="#dishes">Signature Dishes</a></li>
-            <li><a data-scroll href="#gallery">Events</a></li>
-            <li><a data-scroll href="#contact" class="btn btn-gold">Book an Event</a></li>
-          </ul>
-        </nav>
 
-        <!-- Under development -->
-       <button class="theme-toggle" aria-label="Toggle theme">
-  🌙
-</button>
-<!-- <script>
+      <nav class="nav" aria-label="Primary">
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">☰</button>
+        <ul id="primary-nav" class="nav-list">
+          <li><a data-scroll href="#about">About</a></li>
+          <li><a data-scroll href="#services">Services</a></li>
+          <li><a data-scroll href="#dishes">Signature Dishes</a></li>
+          <li><a data-scroll href="gallery.html">Gallery</a></li>
+          <li><a data-scroll href="#contact" class="btn btn-gold">Book an Event</a></li>
+        </ul>
+      </nav>
+
+      <!-- Under development -->
+      <button class="theme-toggle" aria-label="Toggle theme">
+        🌙
+      </button>
+      <!-- <script>
   const toggleBtn = document.querySelector('.theme-toggle');
   const body = document.body;
 
@@ -64,237 +72,255 @@
     }
   });
 </script> -->
+    </div>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero" aria-label="Hero">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">MAB's Celebrations</h1>
+      <p class="hero-tagline">Trusted Bengali catering & event services in Shyamnagar
+</p>
+      <div class="hero-actions">
+        <a href="#contact" id="hero-cta" class="btn btn-gold btn-lg">Book an Event</a>
+        <a href="#services" class="btn btn-gold">Explore Services</a>
       </div>
+    </div>
+  </section>
 
-    </header>
+  <!-- About Us -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-lead">
+        At MAB's Celebrations, we specialize in Bengali catering and complete event management. Our team blends
+        authentic flavors with modern presentation to deliver unforgettable experiences. We pride ourselves on
+        reliability, taste, elegant setups, and a customer-first approach that ensures your event runs smoothly from
+        start to finish.
+      </p>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero" aria-label="Hero">
-      <div class="hero-overlay" aria-hidden="true"></div>
-      <div class="container hero-content">
-        <h1 class="hero-title">MAB's Celebrations</h1>
-        <p class="hero-tagline">“Crafting Memorable Events with Exceptional Taste”</p>
-        <div class="hero-actions">
-          <a href="#contact" id="hero-cta" class="btn btn-gold btn-lg">Book an Event</a>
-          <a href="#services" class="btn btn-gold">Explore Services</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Us -->
-    <section id="about" class="section about">
-      <div class="container">
-        <h2 class="section-title">About Us</h2>
-        <p class="section-lead">
-          At MAB's Celebrations, we specialize in Bengali catering and complete event management. Our team blends authentic flavors with modern presentation to deliver unforgettable experiences. We pride ourselves on reliability, taste, elegant setups, and a customer-first approach that ensures your event runs smoothly from start to finish.
-        </p>
-      </div>
-    </section>
-
-    <!-- Our Services -->
-    <section id="services" class="section services">
-      <div class="container">
-        <h2 class="section-title">Our Services</h2>
-        <div class="grid cards">
-          <!-- Each card uses warm colors and subtle hover effects -->
-          <article class="card service-card">
-            <div class="card-icon" aria-hidden="true">
-              <!-- Simple inline SVG icon (free) -->
-            </div>
-            <h3>🍽️ Food & Catering</h3>
-            <p>Delicious, hygienic, and customized menus to make every celebration memorable.</p>
-          </article>
-           <article class="card service-card">
-            <div class="card-icon" aria-hidden="true">
-            </div>
-            <h3>🌸 Floral Decoration</h3>
-            <p>Beautiful floral designs that add elegance and charm to your special events.</p>
-          </article>
-          <article class="card service-card">
-            <div class="card-icon" aria-hidden="true">
-            </div>
-            <h3>📸 Photography</h3>
-            <p>Professional photography to capture your precious moments perfectly</p>
-          </article>
-          <article class="card service-card">
-            <div class="card-icon" aria-hidden="true">
-            </div>
-            <h3>💡 Lights</h3>
-<p>Creative lighting arrangements to enhance the mood and atmosphere of your event.</p>
-          </article>
-          <article class="card service-card">
-            <div class="card-icon" aria-hidden="true">
-            </div>
-            <h3>💄 Make Up</h3>
-            <p>Expert makeup services for a flawless and confident look on your big day.</p>
-          </article>
-          <!-- <article class="card service-card">
+  <!-- Our Services -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="grid cards">
+        <!-- Each card uses warm colors and subtle hover effects -->
+        <article class="card service-card">
+          <div class="card-icon" aria-hidden="true">
+            <!-- Simple inline SVG icon (free) -->
+          </div>
+          <h3>🍽️ Food & Catering</h3>
+          <p>Delicious, hygienic, and customized menus to make every celebration memorable.</p>
+        </article>
+        <article class="card service-card">
+          <div class="card-icon" aria-hidden="true">
+          </div>
+          <h3>🌸 Floral Decoration</h3>
+          <p>Beautiful floral designs that add elegance and charm to your special events.</p>
+        </article>
+        <article class="card service-card">
+          <div class="card-icon" aria-hidden="true">
+          </div>
+          <h3>📸 Photography</h3>
+          <p>Professional photography to capture your precious moments perfectly</p>
+        </article>
+        <article class="card service-card">
+          <div class="card-icon" aria-hidden="true">
+          </div>
+          <h3>💡 Lights</h3>
+          <p>Creative lighting arrangements to enhance the mood and atmosphere of your event.</p>
+        </article>
+        <article class="card service-card">
+          <div class="card-icon" aria-hidden="true">
+          </div>
+          <h3>💄 Make Up</h3>
+          <p>Expert makeup services for a flawless and confident look on your big day.</p>
+        </article>
+        <!-- <article class="card service-card">
             <div class="card-icon" aria-hidden="true">
             </div>
             <h3>Decoration & Theme Setup</h3>
             <p>Custom themes, floral arrangements, and ambient lighting.</p>
           </article> -->
-          <article class="card service-card">
-            <div class="card-icon" aria-hidden="true">
-            </div>
-            <h3> ✋ Mehndi</h3>
-            <p>Traditional and modern mehndi designs crafted with care and precision.</p>
-          </article>
+        <article class="card service-card">
+          <div class="card-icon" aria-hidden="true">
+          </div>
+          <h3> ✋ Mehndi</h3>
+          <p>Traditional and modern mehndi designs crafted with care and precision.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signature Dishes -->
+  <section id="dishes" class="section dishes">
+    <div class="container">
+      <h2 class="section-title">Signature Dishes</h2>
+      <ul class="dish-list">
+        <li>Hyderabadi Chicken Biryani</li>
+        <li>Paneer Butter Masala</li>
+        <li>Butter Naan & Laccha Paratha</li>
+        <li>Chilli Chicken</li>
+        <li>Veg Hakka Noodles</li>
+        <li>Gulab Jamun & Rasmalai</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact / Booking Section -->
+<section id="contact" class="section contact">
+  <div class="container">
+    <h2 class="section-title">Contact & Booking</h2>
+
+    <div class="contact-grid">
+
+      <!-- FORM -->
+      <form id="booking-form"
+            class="form"
+            name="booking"
+            method="POST"
+            data-netlify="true"
+            aria-label="Booking form" 
+            netlify>
+
+        <input type="hidden" name="form-name" value="booking">
+
+        <!-- Name -->
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required placeholder="Your full name" />
+
+        <!-- Phone -->
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" required placeholder="e.g., +91 98765 43210" />
+
+        <!-- Services -->
+        <p><strong>Select Services:</strong></p>
+
+        <div class="event-grid">
+          <label class="check-card">
+            <input type="checkbox" name="eventType[]" value="Mehndi">
+            <span>Mehndi</span>
+          </label>
+
+          <label class="check-card">
+            <input type="checkbox" name="eventType[]" value="Photography">
+            <span>Photography</span>
+          </label>
+
+          <label class="check-card">
+            <input type="checkbox" name="eventType[]" value="Food & Catering">
+            <span>Food & Catering</span>
+          </label>
+
+          <label class="check-card">
+            <input type="checkbox" name="eventType[]" value="Floral Decoration">
+            <span>Floral Decoration</span>
+          </label>
+
+          <label class="check-card">
+            <input type="checkbox" name="eventType[]" value="Lights">
+            <span>Lights</span>
+          </label>
+
+          <label class="check-card">
+            <input type="checkbox" name="eventType[]" value="Make Up">
+            <span>Make Up</span>
+          </label>
         </div>
-      </div>
-    </section>
 
-    <!-- Signature Dishes -->
-    <section id="dishes" class="section dishes">
-      <div class="container">
-        <h2 class="section-title">Signature Dishes</h2>
-        <ul class="dish-list">
-          <li>Hyderabadi Chicken Biryani</li>
-          <li>Paneer Butter Masala</li>
-          <li>Butter Naan & Laccha Paratha</li>
-          <li>Chilli Chicken</li>
-          <li>Veg Hakka Noodles</li>
-          <li>Gulab Jamun & Rasmalai</li>
-        </ul>
-      </div>
-    </section>
+        <!-- Message -->
+        <label for="message">Message</label>
+        <textarea id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Tell us about your event (date, guests, location)"></textarea>
 
-  
+        <button type="submit" class="btn btn-gold">Submit Booking Request</button>
+        <p class="form-note">
+  ✔ We respond within 24 hours</p>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
 
-    <!-- Recent Events Gallery -->
-    <section id="gallery" class="section gallery">
-      <div class="container">
-        <h2 class="section-title">Recent Events</h2>
-        <div class="grid gallery-grid">
-          <!-- Placeholder images via Unsplash (free) -->
-          <figure class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?q=80&w=1200&auto=format&fit=crop" alt="Wedding reception setup" />
-            <figcaption>Wedding Reception – Kolkata</figcaption>
-          </figure>
-          <figure class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1532634726-8b9fb99825b7?q=80&w=1200&auto=format&fit=crop" alt="Birthday party décor" />
-            <figcaption>Birthday Event – 100 Guests</figcaption>
-          </figure>
-          <figure class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1559599189-97dfc0f7d9f3?q=80&w=1200&auto=format&fit=crop" alt="Corporate lunch buffet" />
-            <figcaption>Corporate Lunch Setup</figcaption>
-          </figure>
-          <figure class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200&auto=format&fit=crop" alt="Live food counter" />
-            <figcaption>Live Food Counter</figcaption>
-          </figure>
-          <figure class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?q=80&w=1200&auto=format&fit=crop" alt="Buffet setup" />
-            <figcaption>Grand Buffet Arrangement</figcaption>
-          </figure>
-          <figure class="gallery-card">
-            <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?q=80&w=1200&auto=format&fit=crop" alt="Elegant table décor" />
-            <figcaption>Elegant Décor & Table Setup</figcaption>
-          </figure>
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+        <div class="info-block">
+          <h3>Reach Us</h3>
+          <p><strong>Phone:</strong> <a href="tel:+919123310084">+91-91233-10084</a></p>
+          <p><strong>Email:</strong> <a href="mailto:MABscreation4u@gmail.com">MABscreation4u@gmail.com</a></p>
+          <p><strong>Location:</strong> Shyamnagar, West Bengal</p>
         </div>
-      </div>
-    </section>
 
-    <!-- Contact / Booking Section -->
-    <section id="contact" class="section contact">
-      <div class="container">
-        <h2 class="section-title">Contact & Booking</h2>
-        <div class="contact-grid">
-          <form id="booking-form" class="form" aria-label="Booking form">
-            <!-- Name -->
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required placeholder="Your full name" />
-
-            <!-- Phone -->
-            <label for="phone">Phone</label>
-            <input id="phone" name="phone" type="tel" required placeholder="e.g., +91 98765 43210" />
-
-            <!-- Event Type -->
-            <label for="eventType">Event Type</label>
-            <select id="eventType" name="eventType" required>
-              <option value="">Select an event type</option>
-              <option>Wedding</option>
-              <option>Engagement</option>
-              <option>Reception</option>
-              <option>Birthday</option>
-              <option>Anniversary</option>
-              <option>Corporate</option>
-              <option>Other</option>
-            </select>
-
-            <!-- Message -->
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Tell us about your event (date, guests, location)"></textarea>
-
-            <button type="submit" class="btn btn-gold">Submit Booking Request</button>
-            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
-          </form>
-
-          <div class="contact-info">
-            <div class="info-block">
-              <h3>Reach Us</h3>
-              <p><strong>Phone:</strong> <a href="tel:+91-90000-00000">+91-91233-10084</a></p>
-              <p><strong>Email:</strong> <a href="mailto:bookings@mabscelebrations.example">bookings@mabscelebrations.example</a></p>
-              <p><strong>Location:</strong> Shyamnagar, West Bengal</p>
-            </div>
-            <div class="social">
-              <h3>Follow</h3>
-              <div class="social-icons" aria-label="Social media links">
-                <!-- Placeholder icons as inline SVGs -->
-                <a href="#" aria-label="Facebook" class="social-link">
-                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 8h2V5h-2c-2 0-3 1-3 3v2H9v3h2v6h3v-6h2l1-3h-3V8c0-.6.4-1 1-1Z" stroke="currentColor" stroke-width="1.5"/></svg>
-                </a>
-                <a href="#" aria-label="Instagram" class="social-link">
-                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="7" r="1" fill="currentColor"/></svg>
-                </a>
-                <a href="#" aria-label="WhatsApp" class="social-link">
-                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 12a8 8 0 1 1-14.9 4.4L4 21l4.7-1.2A8 8 0 1 1 20 12Z" stroke="currentColor" stroke-width="1.5"/><path d="M8 11c1.5 3 4 4.5 5.5 5l1.2-1.2c.3-.3.7-.4 1.1-.2l2 .8c.4.2.6.7.4 1.1-.7 1.3-2.6 2-4.2 1.6-3-.7-6.3-3.7-7.6-6.6-.4-1 .2-2.3 1.3-2.3l1.3.4c.4.1.7.4.8.8L10 12" stroke="currentColor" stroke-width="1.5"/></svg>
-                </a>
-              </div>
-            </div>
+        <div class="social">
+          <h3>Follow</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/mainak.banerjee.771" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook" style="color:#1877F2;"></i>
+</a>
+            <a href="https://www.instagram.com/mabscreation4u/" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram" style="color:#E1306C;"></i>
+</a>
+<a href="https://wa.me/919123310084" 
+   class="social-link" 
+   aria-label="WhatsApp" 
+   target="_blank">
+  <i class="fa-brands fa-whatsapp" style="color:#25D366;"></i>
+</a>
+            
+</a>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-  <div class="footer-container">
-
-    <div class="footer-brand">
-      <h2>MAB's Celebrations</h2>
-      <p>Crafting memorable events with exceptional taste, elegant presentation, and flawless execution.</p>
     </div>
-
-    <div class="footer-links">
-      <h3>Our Services</h3>
-      <ul>
-        <li>Wedding Catering</li>
-        <li>Corporate Events</li>
-        <li>Birthday & Party Catering</li>
-        <li>Event Decoration</li>
-        <li>Live Food Counters</li>
-      </ul>
-    </div>
-
-    <div class="footer-contact">
-      <h3>Contact Us</h3>
-      <p>📞 +91 91233 10084</p>
-      <p>✉️ info@mabscelebrations.com</p>
-      <p>📍 Shyamnagar, West Bengal</p>
-    </div>
-
   </div>
-
-  <div class="footer-bottom">
-    <p> <span id="year"></span> Copyright © 2025 Souptik Roy. All Rights Reserved.</p>
-  </div>
-</footer>
+</section>
 
 
-    <!-- Runtime & Scripts -->
-    <div id="root" hidden></div>
-    <script crossorigin="anonymous" src="//unpkg.com/same-runtime/dist/index.global.js"></script>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <h2>MAB's Celebrations</h2>
+        <p>Crafting memorable events with exceptional taste, elegant presentation, and flawless execution.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Our Services</h3>
+        <ul>
+          <li>Wedding Catering</li>
+          <li>Corporate Events</li>
+          <li>Birthday & Party Catering</li>
+          <li>Event Decoration</li>
+          <li>Live Food Counters</li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>📞 +91 91233 10084</p>
+        <p>✉️ MABscreation4u@gmail.com</p>
+        <p>📍 Shyamnagar, West Bengal</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p> <span id="year"></span> Copyright © 2025 Souptik Roy. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Runtime & Scripts -->
+  <div id="root" hidden></div>
+  <script crossorigin="anonymous" src="//unpkg.com/same-runtime/dist/index.global.js"></script>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">✕</span>
+  <img id="lightbox-img" alt="">
+</div>
+
 </html>
