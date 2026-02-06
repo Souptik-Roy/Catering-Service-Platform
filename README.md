@@ -11,7 +11,7 @@
 
 <h2>🚀 Live Website</h2>
 <p>
-  👉 <a href="https://mab-celebrations.netlify.app/" target="_blank">
+  👉 <a href="https://mabs-celebration.netlify.app/" target="_blank">
     Click Here to Visit the Website
   </a>
 </p>
